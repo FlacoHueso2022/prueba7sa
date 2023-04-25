@@ -1,0 +1,245 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+/* Medios de comunicación */
+.container_principal {
+  border-bottom: 1px #C4C4C2 solid;
+  background-color: #FAFAFA;
+  height: 36px;
+}
+.container_redes {
+  /* border: 1px green solid; */
+  width: 400px;
+  text-align: center;
+  float: left;
+  padding: 3px 0px;
+}
+.container_redes a {
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 20px;
+  color: #AEAEAE;
+}
+.container_redes a:hover {
+  color: black;
+}
+.container_telefono {
+  /* border: 1px green solid; */
+  width: 400px;
+  text-align: center;
+  float: right;
+  padding: 3px 0px;
+}
+.container_telefono a {
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+}
+.container_telefono a:hover {
+  color: #AEAEAE;
+}
+/* Menu */
+.container_menu {
+  clear: both;
+  border: 2px #FAFAFA solid;
+  background-color: #FAFAFA;
+  height: 60px;
+}
+.container_logo {
+  /* border: 1px green solid; */
+  width: 300px;
+  height: 56px;
+  float: left;
+  text-align: center;
+  padding: 17px 0px;
+}
+.container_logo p{
+  font-size: 40px;
+  color: #00B5DF;
+  font-weight: bold;
+}
+.container_opciones {
+  width: 850px;
+  height: 59px;
+  padding: 17px 0px;
+  float: left;
+  text-align: center;
+}
+.container_opciones a {
+  padding: 16px 18px;
+  text-decoration: none;
+  color: black;
+}
+.container_opciones a:hover {
+  background-color: #00BDEF;
+  color: white;
+}
+/* Fondo */
+.container_fondo {
+  clear: both;
+  background-image: url(imagenes/foto1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_center {
+  width: 700px;
+  margin: auto;
+  padding: 110px 0px;
+  text-align: center;
+}
+.color_green {
+  color: #00D8A3;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.color_white {
+  color: white;
+  font-size: 20px;
+}
+.btn1 {
+  border: 1px white solid;
+  padding: 10px 60px;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+}
+.btn1:hover {
+  color: white;
+  background-color: #00D8A3;
+  border: 1px #00D8A3 solid;
+}
+.btn2 {
+  border: 1px #00B7F1 solid;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #01BCF1;
+  border-radius: 20px;
+  color: white;
+}
+.btn2:hover {
+  color: #00B7F1;
+  background-color: white;
+  border: 1px white solid;
+}
+/* 3 contenedores */
+.container_tres {
+  text-align: center;
+}
+.container_left {
+  width: 401px;
+  height: 250px;
+  float: left;
+  padding-top: 50px;
+  background-color: #00B7F1;
+  color: white;
+  border: 1px #00B7F1 solid;
+}
+.container_left a {
+  border: 1px white solid;
+  background-color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+}
+.container_left a:hover {
+  color: #00B7F1;
+}
+.container_center2 {
+  width: 398px;
+  height: 250px;
+  float: left;
+  padding-top: 50px;
+  background-color: #00CAFC;
+  color: white;
+  border: 1px #00CAFC solid;
+}
+.container_center2 a {
+  border: 1px white solid;
+  background-color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+}
+.container_center2 a:hover {
+  color: #00CAFC;
+}
+.container_right {
+  width: 401px;
+  height: 250px;
+  float: left;
+  padding-top: 50px;
+  background-color: #01D6A6;
+  color: white;
+  border: 1px #01D6A6 solid;
+}
+.container_right a {
+  border: 1px white solid;
+  background-color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+}
+.container_right a:hover {
+  color: #01D6A6;
+}
+/* Acerca De */
+.container_info {
+  clear: both;
+  width: 600px;
+  height: 290px;
+  text-align: center;
+  float: left;
+  padding: 25px;
+}
+.container_info p {
+  text-align: left;
+}
+.container_info a {
+  border: 1px #00B7F1 solid;
+  padding: 10px 40px;
+  text-decoration: none;
+  background-color: #00B7F1;
+  border-radius: 30px;
+  color: white;
+}
+.container_info a:hover {
+  color: #00B7F1;
+  border: 1px #00B7F1 solid;
+  background-color: white;
+}
+.container_acerca img {
+  width: 600px;
+  height: 290px;
+  float: left;
+}
+/* Ultimo */
+.container_ultimo {
+  clear: both;
+  background-color: #00B7F1;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border: 1px #00B7F1 solid;
+}
+.container_ultimo p {
+  font-size: 20px;
+  line-height: 30px;
+}
